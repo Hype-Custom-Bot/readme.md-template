@@ -6,9 +6,18 @@ https://discord.com/oauth2/authorize?client_id=CLIENT_ID&scope=bot+applications.
 
 # How to start the bot
 
+## 1
+Replace these items in the `.env` file. Example:
+```
+TOKEN = ugfaogfuduiqhegiqj9u381923hguibeql
+```
+
+**IMPORTANT: MAKE SURE YOU DON'T LEAK YOUR TOKEN, OR ELSE PEOPLE MIGHT USE IT FOR ILLEGAL STUFF. IN CASE YOUR TOKEN IS LEAKED, PLEASE MAKE SURE YOU REGENERATE IT AS FAST AS POSSIBLE BEFORE ANY BAD THINGS COULD HAPPEN**
+
+## 2
 **IMPORTANT: MAKE SURE YOU INSTALLED PYTHON [3.9.7](https://www.python.org/downloads/release/python-397/)**
 
-## Windows
+### Windows
 Make sure you install all requirements using the command below
 
 ```
@@ -23,7 +32,7 @@ python bot.py
 
 **If you see `Ready!`, then the bot is running!**
 
-## Linux
+### Linux
 Make sure you install all requirements using the command below
 
 ```
